@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Mentorship Vyapaarbot</title>
+  <style>
+    /* Reset and base styles */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+    body { line-height: 1.6; background: linear-gradient(to right, #f0f4f8, #d9e4f5); color: #333; }
+
+    header {
+      background: linear-gradient(135deg, #ff6a00, #ee0979);
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    }
+
+    header p { font-size: 1.2em; }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 25px 0 0 0;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: white;
+      background: #ff6a00;
+      padding: 10px 20px;
+      border-radius: 25px;
+      transition: 0.3s;
+      font-weight: bold;
+    }
+
+    nav a:hover { background: #ee0979; color: #fff; }
+
+    section { padding: 60px 20px; max-width: 1200px; margin: auto; }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.5em;
+      color: #ff6a00;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    }
+
+    .card h3 { margin-bottom: 15px; color: #ee0979; }
+    .card p { margin-bottom: 15px; }
+    .card a {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      background: #ff6a00;
+      padding: 10px 15px;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+
+    .card a:hover { background: #ee0979; color: #fff; }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      margin-top: 50px;
+    }
+
+    /* Gradient text for brand with better contrast */
+    .highlight {
+      background: linear-gradient(45deg, #ffffff, #ffd700, #ff8c00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    }
+
+    @media(max-width:768px){
+      header h1 { font-size: 2.2em; }
+      section h2 { font-size: 2em; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1 class="highlight">Startup Mentorship Vyapaarbot</h1>
+    <p>Your complete guide to starting, funding, and growing your startup with mentorship support!</p>
+    <nav>
+      <a href="#start">Start</a>
+      <a href="#docs">Documentation</a>
+      <a href="#funding">Funding</a>
+      <a href="#mentorship">Mentorship</a>
+    </nav>
+  </header>
+
+  <!-- Section 1: How to Start -->
+  <section id="start">
+    <h2>How to Start Your Startup</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Idea Validation</h3>
+        <p>Research your market, identify pain points, and validate your startup idea with potential customers before investing time and money.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="card">
+        <h3>Business Plan</h3>
+        <p>Create a structured business plan outlining your goals, revenue model, target audience, and growth strategy.</p>
+        <a href="#">Learn More</a>
+      </div>
+      <div class="card">
+        <h3>Legal Setup</h3>
+        <p>Register your company, get necessary licenses, and consult legal experts to ensure compliance.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 2: Documentation -->
+  <section id="docs">
+    <h2>Documentation & Resources</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Startup Guides</h3>
+        <p>Access templates and step-by-step guides to structure your startup journey effectively.</p>
+        <a href="#">Explore</a>
+      </div>
+      <div class="card">
+        <h3>Legal Docs</h3>
+        <p>Download agreements, NDAs, and other essential legal documents for your startup.</p>
+        <a href="#">Download</a>
+      </div>
+      <div class="card">
+        <h3>Knowledge Base</h3>
+        <p>Find curated articles, videos, and expert insights to help you make informed decisions.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Funding -->
+  <section id="funding">
+    <h2>Funding Opportunities</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Angel Investors</h3>
+        <p>Connect with early-stage investors ready to fund promising startups.</p>
+        <a href="#">Find Investors</a>
+      </div>
+      <div class="card">
+        <h3>Venture Capital</h3>
+        <p>Learn how to pitch to VC firms and secure larger funding rounds for scaling your business.</p>
+        <a href="#">Learn How</a>
+      </div>
+      <div class="card">
+        <h3>Grants & Competitions</h3>
+        <p>Participate in startup competitions and government grants to secure non-dilutive funding.</p>
+        <a href="#">Apply Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: Mentorship -->
+  <section id="mentorship">
+    <h2>Mentorship & Support</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Startup Mentors</h3>
+        <p>Get guidance from experienced entrepreneurs who have successfully built startups.</p>
+        <a href="#">Connect</a>
+      </div>
+      <div class="card">
+        <h3>Incubators & Accelerators</h3>
+        <p>Join programs that provide resources, mentorship, and funding opportunities to grow your startup.</p>
+        <a href="#">Explore</a>
+      </div>
+      <div class="card">
+        <h3>Networking Events</h3>
+        <p>Participate in meetups and events to meet co-founders, investors, and mentors.</p>
+        <a href="#">Check Events</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Startup Mentorship Vyapaarbot. All rights reserved.</p>
+  </footer>
+
+  <script>window.$zoho=window.$zoho || {};$zoho.salesiq=$zoho.salesiq||{ready:function(){}}</script><script id="zsiqscript" src="https://salesiq.zohopublic.in/widget?wc=siqc2683be8353af3453377a27fc5a24cdd0ef53df672d985078442444cdb4e61c9" defer></script>
+</body>
+</html>
